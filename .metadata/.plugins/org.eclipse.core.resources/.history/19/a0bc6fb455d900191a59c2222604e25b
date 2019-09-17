@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Estoque {
+
+
+	public String cadastrar(int tam_vetor) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int cod_peca, qtde_estoque, est_min;
+		double valor_uni;
+		String desc_peca;
+		
+		int[] vet_cod_peca = new int[tam_vetor];
+		int[] vet_qtde_estoque = new int[tam_vetor];
+		int[] vet_est_min = new int[tam_vetor];
+		double[] vet_valor_uni = new double[tam_vetor];
+		String[] vet_desc_peca = new String[tam_vetor];
+		
+		
+		
+		System.out.println("Informar codigo da peca");
+		cod_peca = sc.nextInt();
+		System.out.println("Informar quantidade em estoque");
+		qtde_estoque = sc.nextInt();
+		System.out.println("Informar estoque minimo");
+		est_min = sc.nextInt();	
+		System.out.println("Informar o valor");
+		valor_uni = sc.nextInt();
+		System.out.println("Informar descricao simples da peca");
+		desc_peca = sc.next();
+		
+
+
+
+		return desc_peca + " cadastrada com sucesso!"; 
+
+	}
+
+}

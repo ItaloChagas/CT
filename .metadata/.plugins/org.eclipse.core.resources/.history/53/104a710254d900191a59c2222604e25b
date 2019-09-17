@@ -1,0 +1,29 @@
+
+public class Estoque {
+
+
+	public String cadastrar(int tam_vetor) {
+
+		int cod_peca, qtde_estoque, est_min, tam_vetor;
+		double valor_uni;
+		String desc_peca;
+		
+		System.out.println("Informar codigo da peca");
+		cod_peca = sc.nextInt();
+		System.out.println("Informar quantidade em estoque");
+		qtde_estoque = sc.nextInt();
+		System.out.println("Informar estoque minimo");
+		est_min = sc.nextInt();	
+		System.out.println("Informar o valor");
+		valor_uni = sc.nextInt();
+		System.out.println("Informar descricao simples da peca");
+		desc_peca = sc.next();
+		
+
+
+
+		return desc_peca + " cadastrada com sucesso!"; 
+
+	}
+
+}

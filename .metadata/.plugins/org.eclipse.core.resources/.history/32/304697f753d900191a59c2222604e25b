@@ -1,0 +1,17 @@
+
+public class Estoque {
+
+
+	public String cadastrar(int cod_peca, String desc_peca, int qtde_estoque, double 
+			valor_uni, int est_min) {
+
+		
+
+
+
+
+		return desc_peca + " cadastrada com sucesso!"; 
+
+	}
+
+}
