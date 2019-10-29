@@ -1,0 +1,12 @@
+package exec1.ct;
+
+public class exec01 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+
+	}
+
+}

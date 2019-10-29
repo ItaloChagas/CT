@@ -1,0 +1,19 @@
+package exec3.ct;
+
+public class Exec3 {
+
+	public static void main(String[] args) {
+
+		int[] codProd = new int [10];
+		int[] precoProd = new int [10];
+		int[][] qtdEst = new int[5][10];
+		
+		
+		for(int i=0; i< 5; i++) {
+			for(int j =0; j<10; j++) {
+				
+			}
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+package exec3.ct;
+
+public class Exec3 {
+
+	public static void main(String[] args) {
+
+		int[] codProd = new int [10];
+		int[] precoProd = new int [10];
+		
+	}
+
+}

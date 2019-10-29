@@ -1,0 +1,11 @@
+package exec2.ct;
+
+public class Exec02 {
+
+	public static void main(String[] args) {
+
+		int[] vetor = new int[{2,345,44,33,5,7,6,5,1}];
+		
+	}
+
+}

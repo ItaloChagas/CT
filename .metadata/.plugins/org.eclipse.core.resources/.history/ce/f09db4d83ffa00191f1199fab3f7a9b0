@@ -1,0 +1,27 @@
+package exec1.ct;
+
+import java.util.Scanner;
+
+public class exec01 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int entrada =0;
+		int tentativa =0;
+
+		do {
+			System.out.println("Informar um numero entra 1 e 9.");
+			entrada = sc.nextInt();
+			
+			tentativa +=1;
+			
+			if(tentativa >=3) {
+				System.out.println("Número de tentativas excedido");
+			}
+		}while (entrada <= 0 || entrada >10 );
+
+
+	}
+
+}

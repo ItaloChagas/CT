@@ -1,0 +1,26 @@
+package exec2.ct;
+
+public class Exec02 {
+
+	public static void main(String[] args) {
+
+		int[] vetor = {2,345,44,33,5,7,6,5,1};
+		
+		
+	}
+	
+	public static void selectionSort(int vetor[]) {
+		int aux =0;
+		for(int i =1; i<=vetor.length -1; i++) {
+			for(int j =0; j<=vetor.length; j++) {
+				if(i > j) {
+					aux =i;
+					vetor[i] = vetor[j];
+					vetor[j] = vetor[aux];
+				}
+			}
+		}
+		
+	}
+
+}
